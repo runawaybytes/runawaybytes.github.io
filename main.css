@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Raleway');
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #efefef;
+  height: 100%;
+}
+.content {
+  height: 100%;
+  overflow-y: auto;
+}
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.heading {
+  background: #b4b853;
+  padding: 20px 0;
+  color: white;
+}
+
+h1, h2, h4 {
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+}
+
+section {
+  margin: 40px 0;
+  color: #557;
+}
+
+section img, section .description {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media screen and (min-width: 768px) {
+  section .description {
+    padding: 16px 40px;
+    box-sizing: border-box;
+    width: calc(100% - 140px);
+  }
+}
+
+section p {
+  font-size: 18px;
+}
+
+footer {
+  height: 40px;
+  background: #999;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+}
+
+footer a {
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
